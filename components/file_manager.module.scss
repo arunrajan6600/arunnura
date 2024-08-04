@@ -1,0 +1,32 @@
+
+.file_manager{
+    margin-top: 1rem;
+    font-size: 20px;
+    font-weight: 300;
+    color: #82BF73;
+    
+
+    h3{
+        margin-left: 0.5rem;
+        margin-top: 10px;
+    }
+
+    &__file{
+        color: var(--dynamic-color);
+        display: flex;
+        align-items: flex-start;
+        width: fit-content;
+        align-items: center;
+        cursor: pointer;
+        
+    }
+
+    &__title{
+        display: flex;
+        align-items: flex-start;
+        width: fit-content;
+        border-bottom: 1px solid #82BF73; 
+        border-bottom-style: var(--dynamic-decor);
+    }
+}
+
