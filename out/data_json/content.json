@@ -1,0 +1,32 @@
+[
+    {
+      "name": "About",
+      "type": "file",
+      "color": "#D05757",
+      "file": "about.txt"
+    },
+    {
+      "name": "Works",
+      "type": "folder",
+      "files": [
+        {
+          "name": "Interactive Art",
+          "type": "folder",
+          "files": [
+            { "name": "Work1_final", "type": "file", "file": "index.txt" },
+            { "name": "Work2_final", "type": "file" , "file": "app.txt"}
+          ]
+        },
+        {
+          "name": "AI Art",
+          "type": "folder",
+          "files": [
+            { "name": "Work3_final", "type": "file", "file": "index.txt" },
+            { "name": "Work4_final", "type": "file" , "file": "app.txt"}
+          ]
+        }
+      ]
+    },
+    { "name": "Get in touch", "type": "file", "color": "#83679E", "file": "get_in_touch.txt"}
+  ]
+  
