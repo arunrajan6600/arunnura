@@ -1,14 +1,14 @@
 // components/FileManager.js
 'use client';
 import style from './file_manager.module.scss'
-import data from '../assets/content/content.json'
+import data from '../public/data_json/content.json'
 
 import { useState, useEffect, useCallback } from 'react';
 
 
 const files = data;
 
-const FileManager = () => {
+const FileManager = ({selectionCallback}) => {
   const [openFolders, setOpenFolders] = useState([]);
   const [selectedItem, setSelectedItem] = useState(null);
   const [flatList, setFlatList] = useState([]);
@@ -18,6 +18,7 @@ const FileManager = () => {
     setFlatList(flatFiles);
     setSelectedItem(flatFiles[0]);
     (selectedItem);
+    selectionCallback(files[0].file, files[0].name);
   }, []);
 
   const flattenFiles = (files, parent = '') => {
@@ -57,6 +58,8 @@ const FileManager = () => {
         case 'Enter':
           if (selectedItem.type === 'folder') {
             toggleFolder(selectedItem.path);
+          }else{
+            selectionCallback(selectedItem.file, selectedItem.name);
           }
           break;
         default:

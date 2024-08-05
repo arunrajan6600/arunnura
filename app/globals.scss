@@ -170,7 +170,7 @@ q:after {
 }
 
 .content-panel{
-  align-content: end;
+  align-content: start;
   height: 100vh;
   width: 66%;
   padding: 74px 50px;
@@ -184,6 +184,10 @@ q:after {
     font-weight: 400;
     line-height: 25px;
     color: #C6C6C6;
+  }
+
+  h3{
+    margin-bottom: 20px;
   }
 }
 
