@@ -16,7 +16,7 @@ export default function Home() {
     if (!fileName) return;
 
     try {
-      const response = await fetch(`arunnura/pages/${fileName}`);
+      const response = await fetch(`pages/${fileName}`);
       if (!response.ok) {
         throw new Error('File not found or unreadable');
       }
