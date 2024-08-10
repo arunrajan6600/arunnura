@@ -33,43 +33,54 @@ const FileManager = ({selectionCallback}) => {
   };
 
   const toggleFolder = (folderPath) => {
-    setOpenFolders((prev) =>
-      prev.includes(folderPath)
-        ? prev.filter((path) => path !== folderPath)
-        : [...prev, folderPath]
-    );
+    setOpenFolders((prev) => {
+      if (prev.includes(folderPath)) {
+        // If the folder is already open, close it and all its child folders
+        const newOpenFolders = prev.filter((path) => !path.startsWith(folderPath));
+        return newOpenFolders;
+      } else {
+        // If the folder is closed, open it
+        return [...prev, folderPath];
+      }
+    });
   };
 
   const handleKeyDown = useCallback(
     (event) => {
       if (!selectedItem) return;
-      const currentIndex = flatList.findIndex((item) => item.path === selectedItem.path);
+  
+      // Filter the flatList to include only items in open folders
+      const visibleItems = flatList.filter(item => {
+        const parentPath = item.path.split('/').slice(0, -1).join('/');
+        return !parentPath || openFolders.includes(parentPath);
+      });
+  
+      const currentIndex = visibleItems.findIndex((item) => item.path === selectedItem.path);
       let newIndex = currentIndex;
-
-      ("keydown");
-
+  
       switch (event.key) {
         case 'ArrowUp':
           newIndex = Math.max(0, currentIndex - 1);
           break;
         case 'ArrowDown':
-          newIndex = Math.min(flatList.length - 1, currentIndex + 1);
+          newIndex = Math.min(visibleItems.length - 1, currentIndex + 1);
           break;
         case 'Enter':
           if (selectedItem.type === 'folder') {
             toggleFolder(selectedItem.path);
-          }else{
+          } else {
             selectionCallback(selectedItem.file, selectedItem.name);
           }
           break;
         default:
           break;
       }
-
-      setSelectedItem(flatList[newIndex]);
-      (flatList[newIndex])
+  
+      if (currentIndex !== newIndex) {
+        setSelectedItem(visibleItems[newIndex]);
+      }
     },
-    [selectedItem, flatList, toggleFolder]
+    [selectedItem, flatList, openFolders, toggleFolder, selectionCallback]
   );
 
   useEffect(() => {
@@ -85,7 +96,7 @@ const FileManager = ({selectionCallback}) => {
   }
 
   const renderFiles = (files, parent = '') => {
-    console.log(selectedItem);
+    
     return files.map((file) => {
       const path = parent ? `${parent}/${file.name}` : file.name;
       if (file.type === 'folder') {
