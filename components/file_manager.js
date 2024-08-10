@@ -83,6 +83,13 @@ const FileManager = ({selectionCallback}) => {
     [selectedItem, flatList, openFolders, toggleFolder, selectionCallback]
   );
 
+  function handleClick(file){
+
+    selectionCallback(file.file, file.name);
+    setSelectedItem(file);
+
+  }
+
   useEffect(() => {
     window.addEventListener('keydown', handleKeyDown);
     return () => {
@@ -119,7 +126,7 @@ const FileManager = ({selectionCallback}) => {
       }
       else {
         return (
-          <div key={path} className={style.file_manager__file}  style={{ '--dynamic-color': file.color, '--dynamic-decor': checkIdentity(selectedItem, file) ? 'solid': 'none' }}>
+          <div onClick={() => handleClick(file)} key={path} className={style.file_manager__file}  style={{ '--dynamic-color': file.color, '--dynamic-decor': checkIdentity(selectedItem, file) ? 'solid': 'none' }}>
              <div className={style.file_manager__title} >
             <h3 >{file.name}</h3>
             </div>
