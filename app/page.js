@@ -1,5 +1,6 @@
 'use client';
 
+import CustomNavbar from "@/components/custom_navbar";
 import FileManager from "@/components/file_manager";
 import TextDisplay from "@/components/text_display";
 import { useState } from 'react';
@@ -31,16 +32,22 @@ export default function Home() {
   return (
   <main className="flex min-h-screen flex-col items-start justify-center bg-[#181616] text-white">
     <div className="flex flex-row w-screen items-start">
-      <div className="nav-panel">
-        <h1>a</h1>
-        <FileManager selectionCallback={handleInputChange}></FileManager>
-      </div>
-      <div className="content-panel">
-        <h1>
-          {`<${fileContent.heading}/>`}
-        </h1>
-        <div className="content-panel__content">
-            <TextDisplay content={fileContent.content}></TextDisplay>
+      <div className="parent-div">
+        <div className="mobile-header">
+          <h1>a</h1>
+          <CustomNavbar handleInputChange={handleInputChange}></CustomNavbar>
+        </div>
+        <div className="nav-panel">
+          <h1>a</h1>
+          <FileManager selectionCallback={handleInputChange}></FileManager>
+        </div>
+        <div className="content-panel">
+          <h1>
+            {`<${fileContent.heading}/>`}
+          </h1>
+          <div className="content-panel__content">
+              <TextDisplay content={fileContent.content}></TextDisplay>
+          </div>
         </div>
       </div>
     </div>

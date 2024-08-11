@@ -191,7 +191,69 @@ q:after {
   }
 }
 
+.parent-div{
+  width: 100%;
+  display: flex;
+  margin: 0;
+}
+
 .h1{
   font-size: 36px;
   font-weight: 400;
+}
+
+.mobile-header{
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+  .nav-panel{
+    display: none;
+  }
+
+  .content-panel{
+    width: 100%;
+    padding: 0;
+    overflow-y: visible;
+
+    &__content{
+      font-size: 10px;
+      line-height: 14px;
+      margin-top: 10px;
+    }
+
+    h3{
+      margin-bottom: 0px;
+    }
+    
+  }
+
+  .parent-div{
+    margin: 25px 50px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1{
+    font-size: 24px;
+  }
+
+  h2{
+    font-size: 10px;
+  }
+
+  .mobile-header{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 26px;
+    align-items: center;
+
+    h1{
+      font-size: 36px;
+      color: #5D846C;
+      padding-bottom: 10px;
+    }
+  }
+  
 }
