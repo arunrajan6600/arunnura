@@ -30,6 +30,9 @@ jobs:
         with:
           static_site_generator: next
 
+      - name: Clean old build artifacts 🧹
+        run: rm -rf ./out
+
       - name: Install dependencies
         run: npm install
 
