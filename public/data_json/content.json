@@ -1,8 +1,8 @@
 [
   {
-    "name": "about",
+    "name": "About",
     "type": "file",
-    "file": "about.txt"
+    "file": "About.txt"
   },
   {
     "name": "get_in_touch",
