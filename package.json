@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node components/utils/file_tree_generator.js",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"

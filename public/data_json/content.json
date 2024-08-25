@@ -1,32 +1,50 @@
 [
-    {
-      "name": "About",
-      "type": "file",
-      "color": "#D05757",
-      "file": "about.txt"
-    },
-    {
-      "name": "Works",
-      "type": "folder",
-      "files": [
-        {
-          "name": "Interactive Art",
-          "type": "folder",
-          "files": [
-            { "name": "Work1_final", "type": "file", "file": "index.txt" },
-            { "name": "Work2_final", "type": "file" , "file": "app.txt"}
-          ]
-        },
-        {
-          "name": "AI Art",
-          "type": "folder",
-          "files": [
-            { "name": "Work3_final", "type": "file", "file": "index.txt" },
-            { "name": "Work4_final", "type": "file" , "file": "app.txt"}
-          ]
-        }
-      ]
-    },
-    { "name": "Get in touch", "type": "file", "color": "#83679E", "file": "get_in_touch.txt"}
-  ]
-  
+  {
+    "name": "about",
+    "type": "file",
+    "file": "about.txt"
+  },
+  {
+    "name": "get_in_touch",
+    "type": "file",
+    "file": "get_in_touch.txt"
+  },
+  {
+    "name": "works",
+    "type": "folder",
+    "files": [
+      {
+        "name": "AI_Art",
+        "type": "folder",
+        "files": [
+          {
+            "name": "app1",
+            "type": "file",
+            "file": "works/AI_Art/app1.txt"
+          },
+          {
+            "name": "index1",
+            "type": "file",
+            "file": "works/AI_Art/index1.txt"
+          }
+        ]
+      },
+      {
+        "name": "Interactive_Art",
+        "type": "folder",
+        "files": [
+          {
+            "name": "app",
+            "type": "file",
+            "file": "works/Interactive_Art/app.txt"
+          },
+          {
+            "name": "index",
+            "type": "file",
+            "file": "works/Interactive_Art/index.txt"
+          }
+        ]
+      }
+    ]
+  }
+]

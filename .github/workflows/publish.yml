@@ -38,6 +38,9 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Prebuild ⚙️
+        run: npm run prebuild
+
       - name: Build with Next.js 🏗️
         run: npm run build
 

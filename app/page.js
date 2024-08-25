@@ -2,6 +2,7 @@
 
 import CustomNavbar from "@/components/custom_navbar";
 import FileManager from "@/components/file_manager";
+import InstaPost from "@/components/insta_post";
 import TextDisplay from "@/components/text_display";
 import { useState } from 'react';
 
@@ -48,6 +49,7 @@ export default function Home() {
           <div className="content-panel__content">
               <TextDisplay content={fileContent.content}></TextDisplay>
           </div>
+          {/* <InstaPost shareLink={'https://www.instagram.com/p/CoUeianvLwa/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=='}></InstaPost> */}
         </div>
       </div>
     </div>
