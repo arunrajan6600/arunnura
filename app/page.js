@@ -42,9 +42,6 @@ export default function Home() {
           <FileManager selectionCallback={handleInputChange}></FileManager>
         </div>
         <div className="content-panel">
-          <h1>
-            {`<${fileContent.heading}/>`}
-          </h1>
           <div className="content-panel__content">
               <TextDisplay content={fileContent.content}></TextDisplay>
           </div>
