@@ -18,7 +18,7 @@ const TextDisplay = ({ content }) => {
     p: ({ children }) => <p className="mb-3">{children}</p>,
     img: ({ src, alt }) => (
       <Image
-        src={`/images/${src}`}
+        src={`/arunnura/images/${src}`}
         alt={alt}
         width={600}  // Set default width
         height={400} // Set default height
