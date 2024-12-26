@@ -1,0 +1,85 @@
+{
+    "type": "Config",
+    "favicon": "/images/favicon.svg",
+    "header": {
+        "type": "Header",
+        "headerVariant": "variant-b",
+        "isSticky": false,
+        "title": "നു",
+        "isTitleVisible": true,
+        "primaryLinks": [
+            {
+                "type": "Link",
+                "label": "about",
+                "url": "/info"
+            },
+            {
+                "type": "Link",
+                "label": "works",
+                "url": "/projects"
+            },
+            {
+                "type": "Link",
+                "label": "204",
+                "url": "/blog"
+            }
+        ],
+        "socialLinks": [
+            {
+                "type": "Social",
+                "altText": "Instagram",
+                "label": "Instagram",
+                "url": "https://www.instagram.com/arun.nura/",
+                "icon": "instagram"
+            }
+          
+        ],
+        "styles": {
+            "self": {
+                "width": "full"
+            }
+        }
+    },
+    "footer": {
+        "type": "Footer",
+        "primaryLinks": [
+            {
+                "type": "Link",
+                "label": "about",
+                "url": "/info",
+                "altText": ""
+            },
+            {
+                "type": "Link",
+                "label": "Contact",
+                "url": "mailto:arunr6600@yahoo.com",
+                "altText": ""
+            },
+            {
+                "type": "Link",
+                "label": "Blog",
+                "url": "/blog",
+                "altText": ""
+            }
+        ],
+        "contacts": {
+            "type": "ContactBlock",
+            "title": "Contact details",
+            "phoneNumber": " ",
+            "phoneAltText": " ",
+            "email": " ",
+            "emailAltText": "My email",
+            "address": " ",
+            "addressAltText": "My address"
+        },
+        "copyrightText": " ",
+        "styles": {
+            "self": {
+                "width": "narrow",
+                "padding": ["pt-16", "pb-16", "pr-4", "pl-4"]
+            }
+        }
+        
+        
+    }
+}
