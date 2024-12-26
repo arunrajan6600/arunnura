@@ -6,10 +6,10 @@ date: '2014-11-11'
 author: content/data/team/arun-nura.json
 excerpt: >-
   1912 ജനുവരി 24 -ബുധൻ
-  പുതിയതായി ഇവിടെ വന്ന കരിങ്കൽ ശിൽപത്തിൽ ഇന്നാദ്യമായി തൊട്ടു. 
+  പുതിയതായി ഇവിടെ വന്ന കരിങ്കൽ ശിൽപത്തിൽ ഇന്നാദ്യമായി തൊട്ടു.
 featuredImage:
   type: ImageBlock
-  url: /images/featured-Image6.jpg
+  url: /arunnura/images/featured-Image6.jpg
   altText: Post thumbnail image
 bottomSections:
   - elementId: ''

@@ -1,6 +1,6 @@
 {
     "type": "Config",
-    "favicon": "/images/favicon.svg",
+    "favicon": "/arunnura/images/favicon.svg",
     "header": {
         "type": "Header",
         "headerVariant": "variant-b",

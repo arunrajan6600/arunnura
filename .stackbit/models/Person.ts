@@ -40,7 +40,7 @@ export const PersonModel: Model = {
             models: ['ImageBlock'],
             default: {
                 type: 'ImageBlock',
-                url: 'https://assets.stackbit.com/components/images/default/default-person.png',
+                url: 'https://assets.stackbit.com/components/arunnura/images/default/default-person.png',
                 altText: 'Person photo'
             }
         }

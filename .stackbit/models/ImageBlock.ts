@@ -18,7 +18,7 @@ export const ImageBlockModel: Model = {
             name: 'url',
             label: 'Image',
             description: 'The URL of the image',
-            default: 'https://assets.stackbit.com/components/images/default/default-image.png'
+            default: 'https://assets.stackbit.com/components/arunnura/images/default/default-image.png'
         },
         {
             type: 'string',

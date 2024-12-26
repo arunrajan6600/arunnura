@@ -10,7 +10,7 @@ description: >-
 featuredImage:
   type: ImageBlock
   url: >-
-    /images/projects/electric_posts/arunr6601_distant_Photograph_of_an_electric_post_made_with_st_ee55b799-658f-499f-8eec-2ca206110788_1.png
+    /arunnura/images/projects/electric_posts/arunr6601_distant_Photograph_of_an_electric_post_made_with_st_ee55b799-658f-499f-8eec-2ca206110788_1.png
   altText: Project thumbnail image
 media:
   type: ImageBlock

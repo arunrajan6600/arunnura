@@ -7,12 +7,12 @@ description: >-
   Kudamon Potti, protagonist from Malayalam movie 'Bhramayugam' giving a German Speech. [Original Speech by Adolf Hitler]
 featuredImage:
   type: ImageBlock
-  url: /images/projects/kudamon_potti/KudamonHitlerFinal4music2_logo.mp4_20241122_184844.670.jpg
+  url: /arunnura/images/projects/kudamon_potti/KudamonHitlerFinal4music2_logo.mp4_20241122_184844.670.jpg
   altText: Project thumbnail image
 media:
   type: VideoBlock
   url: >-
-    /images/projects/kudamon_potti/KudamonHitlerFinal4music2_logo.mp4
+    /arunnura/images/projects/kudamon_potti/KudamonHitlerFinal4music2_logo.mp4
   title: Bhasha Naishadha Ambu
 ---
 

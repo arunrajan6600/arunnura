@@ -57,7 +57,7 @@ export const PageLayoutModel: Model = {
                     ],
                     media: {
                         type: 'ImageBlock',
-                        url: '/images/hero.webp',
+                        url: '/arunnura/images/hero.webp',
                         altText: 'Image alt text'
                     },
                     styles: {
@@ -142,7 +142,7 @@ export const PageLayoutModel: Model = {
             models: ['BackgroundImage'],
             default: {
                 type: 'BackgroundImage',
-                url: '/images/bg2.jpg'
+                url: '/arunnura/images/bg2.jpg'
             }
         }
     ]

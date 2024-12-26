@@ -8,7 +8,7 @@ excerpt: >-
   ആ സ്ത്രീ കൃത്യം പതിനൊന്ന് മണിക്ക് പ്രസവിക്കും. പതിനൊന്ന് മണി സമയം എന്നതിനേക്കാൾ പതിനൊന്ന് എന്ന ആ ബിന്ദുവിനാണ് പ്രസക്തി.
 featuredImage:
   type: ImageBlock
-  url: /images/featured-Image4.jpg
+  url: /arunnura/images/featured-Image4.jpg
   altText: Post thumbnail image
 bottomSections:
   - elementId: ''

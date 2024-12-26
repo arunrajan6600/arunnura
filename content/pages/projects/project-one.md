@@ -14,12 +14,12 @@ description: >-
   Karthy, Dr. Jaseera Majid]
 featuredImage:
   type: ImageBlock
-  url: /images/projects/bhashanaishadhaambu_screenshot.jpg
+  url: /arunnura/images/projects/bhashanaishadhaambu_screenshot.jpg
   altText: Project thumbnail image
 media:
   type: VideoBlock
   url: >-
-    /images/projects/Ambujam_Test1_volUP.mp4
+    /arunnura/images/projects/Ambujam_Test1_volUP.mp4
   title: Bhasha Naishadha Ambu
 ---
 

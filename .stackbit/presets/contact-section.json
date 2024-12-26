@@ -112,7 +112,7 @@
                 },
                 "media": {
                     "type": "ImageBlock",
-                    "url": "/images/contact.jpg",
+                    "url": "/arunnura/images/contact.jpg",
                     "altText": "Contact form image"
                 },
                 "styles": {

@@ -10,11 +10,11 @@ excerpt: >-
   ചുണ്ടുകൾക്കിടയിൽ ഈ പാട്ടും ഇട്ടാട്ടിക്കൊണ്ട് തള്ളിനിൽക്കുന്ന പാറകൾക്കു മുകളിൽ ചവുട്ടി കൈകൾ കൊണ്ട് പരുത്ത വിടവുകളിൽ തൂങ്ങി കരുതലോടെ മുകളിൽ നിന്ന് ജന്തുവും നിലാവും പതിയെ താഴേക്ക് ഇറങ്ങി.
 featuredImage:
   type: ImageBlock
-  url: /images/featured-Image1.jpg
+  url: /arunnura/images/featured-Image1.jpg
   altText: Post thumbnail image
 # backgroundImage:
 #   type: BackgroundImage
-#   url: /images/gallery-3.jpg
+#   url: /arunnura/images/gallery-3.jpg
 #   backgroundSize: cover
 #   backgroundPosition: center
 #   backgroundRepeat: no-repeat

@@ -8,16 +8,15 @@ description: >-
   Inspired by German painter Oskar Zwintscher's Grief (1898)I was trying to materialize the ignored/unknown weights of multiple existances every human bearing in the times of omniverses
 featuredImage:
   type: ImageBlock
-  url: /images/projects/kallolini/Foreign_lovers_screen.jpg
+  url: /arunnura/images/projects/kallolini/Foreign_lovers_screen.jpg
   altText: Project thumbnail image
 media:
   # type: ImageBlock
-  # url: /images/contact.jpg
+  # url: /arunnura/images/contact.jpg
   # altText: Project image
   type: VideoBlock
-  url: /images/projects/kallolini/Amonk.mp4
+  url: /arunnura/images/projects/kallolini/Amonk.mp4
   title: A monk
-
 ---
 
 <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem, tincidunt ac leo efficitur, feugiat tempor odio. Curabitur at auctor sapien. Etiam at cursus enim. Suspendisse sed augue tortor. Nunc eu magna vitae lorem pellentesque fermentum. Sed in facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem semper. Donec sed facilisis nibh. Curabitur eget dui in libero euismod commodo nec sit amet est. Etiam id ipsum aliquam, vehicula erat sit amet, consequat tortor.

@@ -8,17 +8,16 @@ description: >-
   Traditionally, the concept of 'an all-seeing, all-knowing eye' was meant to instill a sense of constant observation, a reminder that someone above is always watching, urging  people to stay disciplined. In our contemporary context, however, surveillance extends beyond mere discipline—it’s a relentless process of data extraction. Human   presence is converted from flesh and blood into pixels and data. In this video, sound generated using pureData is layered over an image created with Midjourney, evoking a sense of networks and ceaseless data transmission, immersing the viewer in a digital flow of observation and control.
 featuredImage:
   type: ImageBlock
-  url: /images/projects/SurveillenceDevi_screenshot.jpg
+  url: /arunnura/images/projects/SurveillenceDevi_screenshot.jpg
   altText: Project thumbnail image
 media:
   # type: ImageBlock
-  # url: /images/contact.jpg
+  # url: /arunnura/images/contact.jpg
   # altText: Project image
   type: VideoBlock
-  url: /images/projects/SurveillenceDevi_1.mp4
+  url: /arunnura/images/projects/SurveillenceDevi_1.mp4
   title: Deity of Surveillance
   altText: Project thumbnail image1
-
 ---
 
 <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem, tincidunt ac leo efficitur, feugiat tempor odio. Curabitur at auctor sapien. Etiam at cursus enim. Suspendisse sed augue tortor. Nunc eu magna vitae lorem pellentesque fermentum. Sed in facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem semper. Donec sed facilisis nibh. Curabitur eget dui in libero euismod commodo nec sit amet est. Etiam id ipsum aliquam, vehicula erat sit amet, consequat tortor.

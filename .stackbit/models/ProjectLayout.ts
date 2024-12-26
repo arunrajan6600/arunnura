@@ -49,7 +49,7 @@ export const ProjectLayoutModel: Model = {
             models: ['ImageBlock'],
             default: {
                 type: 'ImageBlock',
-                url: 'https://assets.stackbit.com/components/images/default/post-4.jpeg',
+                url: 'https://assets.stackbit.com/components/arunnura/images/default/post-4.jpeg',
                 altText: 'Project thumbnail image',
                 caption: ''
             }
@@ -61,7 +61,7 @@ export const ProjectLayoutModel: Model = {
             models: ['ImageBlock', 'VideoBlock'],
             default: {
                 type: 'ImageBlock',
-                url: 'https://assets.stackbit.com/components/images/default/post-4.jpeg',
+                url: 'https://assets.stackbit.com/components/arunnura/images/default/post-4.jpeg',
                 altText: 'Project image'
             }
         },
@@ -130,7 +130,7 @@ export const ProjectLayoutModel: Model = {
             models: ['BackgroundImage'],
             default: {
                 type: 'BackgroundImage',
-                url: '/images/bg2.jpg'
+                url: '/arunnura/images/bg2.jpg'
             }
         }
     ]

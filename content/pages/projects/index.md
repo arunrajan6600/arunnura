@@ -4,7 +4,7 @@ title: WORKS
 colors: colors-a
 backgroundImage:
   type: BackgroundImage
-  url: /images/bg_grey_pixels.jpg
+  url: /arunnura/images/bg_grey_pixels.jpg
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat

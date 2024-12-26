@@ -18,7 +18,7 @@ export const BackgroundImageModel: Model = {
             name: 'url',
             label: 'Background image',
             description: 'The URL of the image',
-            default: '/images/bg2.jpg'
+            default: '/arunnura/images/bg2.jpg'
         },
         {
             type: 'enum',

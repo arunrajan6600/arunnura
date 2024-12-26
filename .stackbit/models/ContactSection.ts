@@ -81,7 +81,7 @@ export const ContactSectionModel: Model = {
             models: ['ImageBlock', 'VideoBlock'],
             default: {
                 type: 'ImageBlock',
-                url: 'https://assets.stackbit.com/components/images/default/contact.png',
+                url: 'https://assets.stackbit.com/components/arunnura/images/default/contact.png',
                 altText: 'Contact form image'
             }
         },

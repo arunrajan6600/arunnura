@@ -43,25 +43,25 @@ export const MediaGallerySectionModel: Model = {
             default: [
                 {
                     type: 'ImageBlock',
-                    url: '/images/gallery-1.jpg',
+                    url: '/arunnura/images/gallery-1.jpg',
                     altText: 'Image one',
                     caption: 'Image one caption'
                 },
                 {
                     type: 'ImageBlock',
-                    url: '/images/gallery-2.jpg',
+                    url: '/arunnura/images/gallery-2.jpg',
                     altText: 'Image two',
                     caption: 'Image two caption'
                 },
                 {
                     type: 'ImageBlock',
-                    url: '/images/gallery-3.jpg',
+                    url: '/arunnura/images/gallery-3.jpg',
                     altText: 'Image three',
                     caption: 'Image three caption'
                 },
                 {
                     type: 'ImageBlock',
-                    url: '/images/gallery-4.jpg',
+                    url: '/arunnura/images/gallery-4.jpg',
                     altText: 'Image four',
                     caption: 'Image four caption'
                 }

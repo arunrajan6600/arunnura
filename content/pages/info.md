@@ -4,7 +4,7 @@ title: About
 colors: colors-a
 backgroundImage:
   type: BackgroundImage
-  url: /images/bg_grey_pixels.jpg
+  url: /arunnura/images/bg_grey_pixels.jpg
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
@@ -23,7 +23,7 @@ sections:
       ###### Key Concepts- Sporadic Cinema, Pseudo-futurism, Process-ing
     media:
       type: ImageBlock
-      url: /images/about_2.png
+      url: /arunnura/images/about_2.png
       altText: Hero image
     styles:
       self:

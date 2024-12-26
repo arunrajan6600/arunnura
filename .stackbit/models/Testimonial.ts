@@ -38,7 +38,7 @@ export const TestimonialModel: Model = {
             label: 'Author image',
             models: ['ImageBlock'],
             default: {
-                url: 'https://assets.stackbit.com/components/images/default/default-person.png',
+                url: 'https://assets.stackbit.com/components/arunnura/images/default/default-person.png',
                 altText: 'Person photo'
             }
         },

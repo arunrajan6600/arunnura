@@ -9,11 +9,11 @@ excerpt: >-
   "എന്ത് കൊണ്ട്‌ "യോർഗോസ് ലാന്തിമോസ് " എന്ന പേര്?"
 featuredImage:
   type: ImageBlock
-  url: /images/featured-Image3.jpg
+  url: /arunnura/images/featured-Image3.jpg
   altText: Post thumbnail image
 # backgroundImage:
 #   type: BackgroundImage
-#   url: /images/gallery-2.jpg
+#   url: /arunnura/images/gallery-2.jpg
 #   backgroundSize: cover
 #   backgroundPosition: center
 #   backgroundRepeat: no-repeat

@@ -70,7 +70,7 @@ export const HeroSectionModel: Model = {
             models: ['FormBlock', 'ImageBlock', 'VideoBlock'],
             default: {
                 type: 'ImageBlock',
-                url: '/images/hero.webp',
+                url: '/arunnura/images/hero.webp',
                 altText: 'Hero section image'
             }
         },

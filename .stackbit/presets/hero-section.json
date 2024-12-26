@@ -45,7 +45,7 @@
                 "text": null,
                 "media": {
                     "type": "ImageBlock",
-                    "url": "/images/about.jpg",
+                    "url": "/arunnura/images/about.jpg",
                     "altText": "Hero image"
                 },
                 "actions": [
@@ -95,7 +95,7 @@
                 "text": null,
                 "media": {
                     "type": "ImageBlock",
-                    "url": "/images/about.jpg",
+                    "url": "/arunnura/images/about.jpg",
                     "altText": "Hero image"
                 },
                 "actions": [

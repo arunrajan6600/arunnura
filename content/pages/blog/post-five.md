@@ -8,7 +8,7 @@ excerpt: >-
   വെളിച്ചം നിഴലുകളായി വേഷം മാറിയാണ് ആ കാട്ടിനുള്ളിൽ കടന്നിരുന്നത്. കാടത് മനസ്സിലാക്കുകയും ഒരിക്കലും രക്ഷപെടാനാകാത്ത വിധം അവയെ തന്റെ രഹസ്യ ഇടങ്ങളിൽ എക്കാലത്തേക്കും തടവിലിടുകയും ചെയ്തിരുന്നു. ഇത് കാലാകാലങ്ങളായി അതിനുള്ളിൽ സംഭവിച്ചു കൊണ്ടിരുന്നു.
 featuredImage:
   type: ImageBlock
-  url: /images/featured-Image5.jpg
+  url: /arunnura/images/featured-Image5.jpg
   altText: Post thumbnail image
 bottomSections:
   - elementId: ''

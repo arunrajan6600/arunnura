@@ -39,7 +39,7 @@ export const FeaturedItemModel: Model = {
             models: ['ImageBlock'],
             default: {
                 type: 'ImageBlock',
-                url: 'https://assets.stackbit.com/components/images/default/default-image.png',
+                url: 'https://assets.stackbit.com/components/arunnura/images/default/default-image.png',
                 altText: 'Item image'
             }
         },

@@ -33,7 +33,7 @@ export const HeaderModel: Model = {
             models: ['ImageBlock'],
             default: {
                 type: 'ImageBlock',
-                url: 'https://assets.stackbit.com/components/images/default/default-image.png',
+                url: 'https://assets.stackbit.com/components/arunnura/images/default/default-image.png',
                 altText: 'Your logo image',
                 caption: ''
             }

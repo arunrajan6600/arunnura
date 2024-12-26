@@ -30,7 +30,7 @@
                         "title": "CEO at Parks",
                         "image": {
                             "type": "ImageBlock",
-                            "url": "/images/person-2.jpg",
+                            "url": "/arunnura/images/person-2.jpg",
                             "altText": "John Doe"
                         }
                     },
@@ -40,7 +40,7 @@
                         "title": "Product Marketing Manager at Acme",
                         "image": {
                             "type": "ImageBlock",
-                            "url": "/images/person-3.jpg",
+                            "url": "/arunnura/images/person-3.jpg",
                             "altText": "Johnna Doe"
                         }
                     }
@@ -62,7 +62,7 @@
                         "title": "CEO at Parks",
                         "image": {
                             "type": "ImageBlock",
-                            "url": "/images/person-2.jpg",
+                            "url": "/arunnura/images/person-2.jpg",
                             "altText": "John Doe"
                         }
                     },
@@ -72,7 +72,7 @@
                         "title": "Product Marketing Manager at Acme",
                         "image": {
                             "type": "ImageBlock",
-                            "url": "/images/person-3.jpg",
+                            "url": "/arunnura/images/person-3.jpg",
                             "altText": "Johnna Doe"
                         }
                     }
@@ -108,7 +108,7 @@
                         "title": "CEO at Parks",
                         "image": {
                             "type": "ImageBlock",
-                            "url": "/images/person-2.jpg",
+                            "url": "/arunnura/images/person-2.jpg",
                             "altText": "John Doe"
                         }
                     },
@@ -118,7 +118,7 @@
                         "title": "Product Marketing Manager at Acme",
                         "image": {
                             "type": "ImageBlock",
-                            "url": "/images/person-3.jpg",
+                            "url": "/arunnura/images/person-3.jpg",
                             "altText": "Johnna Doe"
                         }
                     }
