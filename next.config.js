@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
+    assetPrefix: 'https://arunrajan6600.github.io/arunnura/',
     images: {
         unoptimized: true,
         remotePatterns: [
