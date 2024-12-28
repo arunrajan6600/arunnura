@@ -26,49 +26,49 @@ bottomSections:
     images:
       - type: ImageBlock
         url: >-
-          \images\arunr6601_distant_Photograph_of_an_electric_post_made_with_st_ee55b799-658f-499f-8eec-2ca206110788_1.png
+          /arunnura/images/arunr6601_distant_Photograph_of_an_electric_post_made_with_st_ee55b799-658f-499f-8eec-2ca206110788_1.png
         altText: Image one
         caption: electric posts
         elementId: ''
       - type: ImageBlock
         url: >-
-          \images\arunr6601_Photograph_of_an_electric_post_made_of_standing_God_2fe382aa-b994-45ac-9da6-b6abc409c045_1.png
+          /arunnura/images/arunr6601_Photograph_of_an_electric_post_made_of_standing_God_2fe382aa-b994-45ac-9da6-b6abc409c045_1.png
         altText: Image two
         caption: electric posts
         elementId: ''
       - type: ImageBlock
         url: >-
-          \images\arunr6601_Photograph_of_eight_handed_Lord_Vishnu_statue_in_an_c2907032-8ea1-4f40-ae0e-39408e9463b3_1.png
+          /arunnura/images/arunr6601_Photograph_of_eight_handed_Lord_Vishnu_statue_in_an_c2907032-8ea1-4f40-ae0e-39408e9463b3_1.png
         altText: Image three
         caption: electric posts
         elementId: ''
       - type: ImageBlock
         url: >-
-          \images\arunr6601_Photograph_of_Jesus_Christ_statue_in_an_electric_po_618886ea-11b5-4cda-9224-ef1228de1545_0.png
+          /arunnura/images/arunr6601_Photograph_of_Jesus_Christ_statue_in_an_electric_po_618886ea-11b5-4cda-9224-ef1228de1545_0.png
         altText: Image four
         caption: electric posts
         elementId: ''
       - type: ImageBlock
         url: >-
-          \images\arunr6601_Photograph_of_Street_light_in_the_shape_of_Lord_Ayy_fbe55b08-097b-45b7-a9c4-62f98571f08e_0.png
+          /arunnura/images/arunr6601_Photograph_of_Street_light_in_the_shape_of_Lord_Ayy_fbe55b08-097b-45b7-a9c4-62f98571f08e_0.png
         altText: image five
         caption: electric posts
         elementId: ''
       - type: ImageBlock
         url: >-
-          \images\arunr6601_Photograph_of_Street_light_in_the_shape_of_Lord_Shi_1a155ab2-9ac0-4de9-8bdd-ff5b82a5e258_0.png
+          /arunnura/images/arunr6601_Photograph_of_Street_light_in_the_shape_of_Lord_Shi_1a155ab2-9ac0-4de9-8bdd-ff5b82a5e258_0.png
         altText: image six
         caption: electric posts
         elementId: ''
       - type: ImageBlock
         url: >-
-          \images\arunr6601_Photograph_of_Street_light_in_the_shape_of_Lord_Shi_8769c974-776d-4b15-82ce-634f5d1975a1_1.png
+          /arunnura/images/arunr6601_Photograph_of_Street_light_in_the_shape_of_Lord_Shi_8769c974-776d-4b15-82ce-634f5d1975a1_1.png
         altText: image seven
         caption: electric posts
         elementId: ''
       - type: ImageBlock
         url: >-
-          \images\arunr6601_wide_angle_distant_Photograph_of_Lord_MUruga_statue_8bba4e62-5b6f-4734-84ff-13dfbaea4b0d_0.png
+          /arunnura/images/arunr6601_wide_angle_distant_Photograph_of_Lord_MUruga_statue_8bba4e62-5b6f-4734-84ff-13dfbaea4b0d_0.png
         altText: image eight
         caption: electric posts
         elementId: ''

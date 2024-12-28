@@ -6,7 +6,7 @@ date: '2024-08-10'
 description: ''
 featuredImage:
   type: ImageBlock
-  url: \images\Pomogranates_screenshot.jpg
+  url: /arunnura/images/Pomogranates_screenshot.jpg
   altText: 'Fleshy pomegranate '
   caption: 'Fleshy pomegranate '
 media:
