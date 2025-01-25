@@ -55,11 +55,11 @@ export default function ImageBlock(props) {
                                 `}
                             </style>
                             <img
-                                src="/arunnura/images/monKEY.png"
+                                src="/arunnura/images/manKEY.png"
                                 alt="Modern Workspace"
                             />
                             <img
-                                src="/arunnura/images/manKEY.png"
+                                src="/arunnura/images/monKEY.png"
                                 alt="Wireframe Design"
                             />
                         </div>
