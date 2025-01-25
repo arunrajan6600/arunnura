@@ -25,6 +25,7 @@ sections:
       type: ImageBlock
       url: /arunnura/images/about_2.png
       altText: Hero image
+      isEmbedded: true
     styles:
       self:
         height: auto
