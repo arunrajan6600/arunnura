@@ -68,7 +68,7 @@ sections:
     title: ''
     text: >
       Download CV and Resume : [CLICK
-      HERE](https://drive.google.com/file/d/1AF4qnyqRR8Q6ns50HcpftWor1BevdIc0/view?usp=sharing)
+      HERE](https://drive.google.com/file/d/15wvnriDqfn0tJTHynQ5Hs7UaNQc0eu3Z/view?usp=drive_link)
     elementId: ''
     styles:
       self:
